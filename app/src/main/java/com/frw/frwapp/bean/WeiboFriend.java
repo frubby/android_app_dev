@@ -25,8 +25,7 @@ public class WeiboFriend {
     private boolean following;
     private boolean follow_me;
     private int online_status;
-    @JSONField(format="ddd MMM d HH:mm:ss UTCK yyyy")
-    private Date created_at;
+    private String created_at;
 
     public long getId() {
         return id;
@@ -164,11 +163,11 @@ public class WeiboFriend {
         this.online_status = online_status;
     }
 
-    public Date getCreated_at() {
+    public String getCreated_at() {
         return created_at;
     }
 
-    public void setCreated_at(Date created_at) {
+    public void setCreated_at(String created_at) {
         this.created_at = created_at;
     }
 }

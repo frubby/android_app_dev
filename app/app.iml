@@ -92,6 +92,7 @@
     <orderEntry type="library" exported="" name="androidbootstrap-2.0.1" level="project" />
     <orderEntry type="library" exported="" name="design-23.1.1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-23.1.1" level="project" />
+    <orderEntry type="library" exported="" name="universal-image-loader-1.9.5" level="project" />
     <orderEntry type="library" exported="" name="fastjson-1.1.46.android" level="project" />
   </component>
 </module>

@@ -8,11 +8,12 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-<android.support.v7.widget.AppCompatSpinner
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_person"
+        android:layout_gravity="left" />
 
-</android.support.v7.widget.AppCompatSpinner>
 
 </LinearLayout>

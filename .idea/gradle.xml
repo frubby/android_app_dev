@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/aidlclient" />
             <option value="$PROJECT_DIR$/aidlserv" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/douban" />
             <option value="$PROJECT_DIR$/lea" />
           </set>
         </option>

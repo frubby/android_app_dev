@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.beardedhen.androidbootstrap.BootstrapButton;
 import com.frw.douban.R;
+import com.frw.douban.comm.ConstValue;
 
 public class MovieActivity extends AppCompatActivity implements View.OnClickListener {
     BootstrapButton btn_mv_now;
@@ -20,6 +21,7 @@ public class MovieActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_movie);
 
         init();
+
     }
 
     private void init() {
@@ -36,7 +38,12 @@ public class MovieActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_mv_now:
-                
+                Intent it=new Intent();
+                Bundle para=new Bundle();
+                para.putString("list_type", ConstValue.MOVIE_NOW);
+                it.putExtras(para);
+                it.setClass(this,MovieListActivity.class);
+                startActivity(it);
                 break;
         }
     }

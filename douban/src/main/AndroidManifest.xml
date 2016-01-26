@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.frw.douban">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +20,9 @@
         <activity android:name=".act.MovieActivity" />
         <activity android:name=".act.BookActivity" />
         <activity android:name=".act.MovieListActivity" />
-        <activity android:name=".act.MainDetailActivity"></activity>
+        <activity android:name=".act.MainDetailActivity" />
+        <activity android:name=".act.MovieDetailActivity" />
+        <activity android:name=".act.PersonActivity"></activity>
     </application>
 
 </manifest>

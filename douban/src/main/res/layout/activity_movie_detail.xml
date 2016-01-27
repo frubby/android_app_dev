@@ -58,6 +58,9 @@
 
     <RatingBar
         android:id="@+id/rate_mv_score"
+        android:stepSize="0.1"
+        android:clickable="false"
+        style="?android:attr/ratingBarStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/img_mv_pic"
@@ -83,14 +86,16 @@
         android:layout_below="@+id/tx_mv_actors">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <GridView
+                android:id="@+id/gv_actors"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:stretchMode="spacingWidthUniform"
                 android:numColumns="auto_fit"></GridView>
 
         </LinearLayout>
@@ -99,8 +104,7 @@
     <TextView
         android:id="@+id/tx_mv_detail"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_alignBottom="@+id/img_mv_pic"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/img_acters"
@@ -120,7 +124,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="年份:"
+        android:text=":"
         android:id="@+id/tx_mv_year"
         android:layout_below="@+id/tx_mv_directors"
         android:layout_toRightOf="@+id/tx_mv_year_"/>
@@ -138,7 +142,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="得分:"
+        android:text=":"
         android:id="@+id/tx_mv_score"
         android:layout_above="@+id/rate_mv_score"
         android:layout_toRightOf="@+id/tx_mv_score_" />

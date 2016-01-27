@@ -47,4 +47,7 @@ public class MovieActivity extends AppCompatActivity implements View.OnClickList
                 break;
         }
     }
+
+
+
 }

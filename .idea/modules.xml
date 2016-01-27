@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FrwApp.iml" filepath="$PROJECT_DIR$/FrwApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/aidlserv/aidlserv.iml" filepath="$PROJECT_DIR$/aidlserv/aidlserv.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/douban/douban.iml" filepath="$PROJECT_DIR$/douban/douban.iml" />
       <module fileurl="file://$PROJECT_DIR$/lea/lea.iml" filepath="$PROJECT_DIR$/lea/lea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sina_weibo_android.iml" filepath="$PROJECT_DIR$/sina_weibo_android.iml" />
     </modules>
   </component>
 </project>
